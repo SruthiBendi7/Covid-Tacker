@@ -15,7 +15,7 @@ def home(request):
 
     headers = {
         'x-rapidapi-host': "covid-193.p.rapidapi.com",
-        'x-rapidapi-key': "8492c5bfefmsh8caa5bc74aeaccap1c41fdjsnae0a1605aca3"
+        'x-rapidapi-key': "api-key"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring).json()
